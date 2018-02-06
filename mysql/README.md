@@ -1,5 +1,5 @@
 debian
-suppot arm64
+support arm64
 docker run --name aarch64mysql5.5 -p 3306:3306 -v /data/mysql/debian/mysql_data:/var/lib/mysql -v /data/mysql/debian/conf/my.cnf:/etc/mysql/my.cnf -v /data/mysql/debian/logs:/var/log/mysql -e MYSQL_ROOT_PASSWORD=123456 -d debian/mysql5.5:latest
 
 
