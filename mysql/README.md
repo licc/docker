@@ -1,0 +1,2 @@
+
+docker run --name ubuntumysql5.7 -p 3306:3306   -v /data/mysql/ubuntu/conf/:/etc/mysql/mysql.conf.d/  -v /data/mysql/ubuntu/mysql_data:/var/lib/mysql -v /data/mysql/ubuntu/logs:/var/log/mysql -e MYSQL_ROOT_PASSWORD=123456  -d ubuntu/mysql5.7.21:latest
